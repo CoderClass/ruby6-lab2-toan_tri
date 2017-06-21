@@ -1,8 +1,10 @@
 <div class="container users-index">
+  <% if !flash.empty? %>
+    <div class="alert alert-success"><%= flash[:error] %></div>
+  <% end %>
   <% @users.in_groups_of(3) do |group| %>
     <div class="row">
       <%= render partial: 'user', collection: group.compact %>
     </div>
   <% end %>
-
 </div>
