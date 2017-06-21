@@ -26,6 +26,16 @@ class SessionsController < ApplicationController
     redirect_to root_path
   end
 
+  def callback
+    if user = User.from_omniauth(env["omniauth.auth"])
+      session[:user_id] = @user.id
+      redirect_to users_path
+    else
+      flash[:error] = "Cannot authenticate via facebook"
+      redirect_to login_path
+    end
+  end
+
   private
    def session_params
     params.permit(:email, :password)

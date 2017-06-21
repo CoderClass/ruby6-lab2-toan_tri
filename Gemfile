@@ -33,6 +33,9 @@ gem 'httparty'
 # use platforms: [:ruby] to make it work for windows
 gem 'bcrypt', platforms: [:ruby]
 
+gem 'omniauth'
+gem 'omniauth-facebook', '~> 4.0.0'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
