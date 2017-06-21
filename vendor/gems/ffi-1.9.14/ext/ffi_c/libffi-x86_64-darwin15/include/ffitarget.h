@@ -1,0 +1,1 @@
+/Users/tringo/Documents/Projects/Rails/ruby6-lab2-toan_tri/vendor/gems/ffi-1.9.14/ext/ffi_c/libffi/src/x86/ffitarget.h

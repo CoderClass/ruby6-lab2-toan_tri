@@ -1,0 +1,13 @@
+current directory: /Users/tringo/Documents/Projects/Rails/ruby6-lab2-toan_tri/vendor/gems/json-1.8.6/ext/json
+/Users/tringo/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170621-5684-n6txo1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby6-lab2-toan_tri/vendor/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby6-lab2-toan_tri/vendor/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby6-lab2-toan_tri/vendor/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
